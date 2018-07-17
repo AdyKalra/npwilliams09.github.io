@@ -131,6 +131,13 @@ animation-duration: 2.5s;
 .projCell{
 	margin: 20px;
 }
+.projCell:hover .thumb {
+    opacity: 0.3;
+  }
+  
+  .projCell:hover .overlay {
+    opacity: 1;
+  }
 .imThumb{
     border-radius: 50%;
     box-shadow: 0 0 2px 2px orange;
@@ -142,4 +149,14 @@ animation-duration: 2.5s;
 }
 .bio{
     color: orange;
+}
+.overlay{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
