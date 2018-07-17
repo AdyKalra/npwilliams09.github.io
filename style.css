@@ -148,8 +148,6 @@ animation-duration: 2.5s;
 .name{
     font-size: 50px;
     font-family: 'Lobster', cursive;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 .bio{
     color: orange;
