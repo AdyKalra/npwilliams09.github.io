@@ -126,4 +126,7 @@ animation-duration: 2.5s;
 .projCell{
 	margin: 20px;
 }
-
+.imThumb{
+    border-radius: 50px;
+    outline: 2px solid orange;
+}
