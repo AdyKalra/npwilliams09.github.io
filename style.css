@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+	overflow-x: hidden;
+}
+body{
+	margin-bottom: -10px;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #242424;
+	background: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Free-black-background-wallpaper.jpg');
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 50px;
+}
+li {
+	padding-bottom: 0px; 
+	list-style: none;
+	margin: 0px 25px;
+}
+ul {
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+}
+main{
+	margin-top: 55px;
+	text-align: center;
+}
+footer{
+	height: 30px;
+	padding-top: 15px;
+	background-color: #eee;
+	font-size: 12px;
+	text-align: center;
+	margin: 8px -10px -10px;
+}
+.aboutSect{
+	height: 96vh;
+	background-color: #242424;
+	background: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Free-black-background-wallpaper.jpg');
+	margin: -10px -10px -8px;
+	color: white;
+}
+.aboutGrid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.contGrid{
+	width: 800px;
+	margin: auto;
+}
+.projGrid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.animated {
+	-webkit-animation-duration: 2.5s;
+animation-duration: 2.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+} 
+
+@-webkit-keyframes bounce {
+	0%, 20%, 80%, 100% {-webkit-transform: translateY(0);}
+	50% {-webkit-transform: translateY(-15px);}
+} 
+
+@keyframes bounce { 
+	0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+	50% {transform: translateY(-5px);}
+} 
+
+.bounce { 
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
+	position: absolute;
+	margin-top: 85vh;
+	margin-left: 48vw;
+	cursor: pointer;
+	color: white;
+}
+.bounce:hover{
+	color: orange;
+}
+.nav-link{
+	text-decoration: none;
+	color: white;
+	padding-bottom: 8px;
+	cursor: pointer;
+}
+.nav-link:hover{
+	border-bottom: 2px solid orange;
+	color: orange;
+}
+.mediaLink{
+	margin: 8px;
+	color: black;
+}
+.mediaLink:hover{
+	color: orange;
+}
+.thumb{
+	height: 380px;
+	width: 380px;
+	border-radius: 3px;
+}
+.projCell{
+	margin: 20px;
+}
+
