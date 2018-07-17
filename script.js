@@ -3,7 +3,7 @@ const projArr = [
 		"name" : "React-Redux Calculator",
 		"tech" : "HTML/CSS/React/Redux",
 		"link" : 'https://nrpy078n7l.codesandbox.io/',
-		"pic" : 'calc.png',
+		"pic" : 'calc.PNG',
 		"desc" : "Javascript calculator built using React and Redux"
 	},
 	{
