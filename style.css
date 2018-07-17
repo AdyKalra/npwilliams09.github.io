@@ -62,6 +62,7 @@ footer{
 	display: grid;
     grid-template-columns: auto auto;
     width: 75%;
+    margin: auto;
 }
 .contGrid{
 	width: 800px;
@@ -140,6 +141,7 @@ animation-duration: 2.5s;
     border-radius: 50%;
     box-shadow: 0 0 2px 2px orange;
     height: 500px;
+    margin: auto;
 }
 .name{
     font-size: 50px;
