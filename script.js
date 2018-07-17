@@ -47,7 +47,7 @@ const projPrinter = (projs) => {
 	//for each proj
 	for (let i = 0; i < projs.length; i++){
 		let html = '';
-		html += '<div class="projCell"><a href='+projs[i].link+' target="_blank"><img src=' + projs[i].pic + ' class="thumb"></a><a href='+projs[i].link+' target="_blank"><div class="overlay"><div class="text">John Doe</div></div><h3>'+projs[i].name+'</h3></a><h4>'+projs[i].tech+'</h4></div>';
+		html += '<div class="projCell"><a href='+projs[i].link+' target="_blank"><img src=' + projs[i].pic + ' class="thumb"></a><div class="overlay"><div class="text">John Doe</div></div><a href='+projs[i].link+' target="_blank"><h3>'+projs[i].name+'</h3></a><h4>'+projs[i].tech+'</h4></div>';
 		htmlArr.push(html);
 	}
 	let htmlStr = htmlArr.join('');
