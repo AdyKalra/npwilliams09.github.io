@@ -181,10 +181,12 @@ animation-duration: 2.5s;
     color: blue;
 }
 #mobileWarning{
-    width: 100vw;
+    width: 90vw;
     border-radius: 3%;
     background-color: red;
     color: white;
     text-align: center;
     position: fixed;
+    margin-left: -99999px;
+    padding: 5px;
 }
