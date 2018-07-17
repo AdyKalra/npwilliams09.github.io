@@ -127,6 +127,7 @@ animation-duration: 2.5s;
 	margin: 20px;
 }
 .imThumb{
-    border-radius: 50px;
-    outline: 2px solid orange;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px orange;
+    height: 400px;
 }
