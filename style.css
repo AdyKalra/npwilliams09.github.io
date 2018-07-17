@@ -176,6 +176,7 @@ animation-duration: 2.5s;
 }
 #about{
     padding: 0px 75px;
+    width: 500px;
 }
 #email{
     color: blue;
