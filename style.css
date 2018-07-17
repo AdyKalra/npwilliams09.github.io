@@ -186,4 +186,5 @@ animation-duration: 2.5s;
     background-color: red;
     color: white;
     text-align: center;
+    position: fixed;
 }
