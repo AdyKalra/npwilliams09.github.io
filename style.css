@@ -53,7 +53,7 @@ footer{
 }
 .aboutSect{
 	height: 96vh;
-	background-color: linear-gradient(to bottom, #121212, #252525 );
+	background: linear-gradient(to bottom, #121212, #252525 );
 	margin: -10px -10px -8px;
     color: white;
     padding-top: 10vh;
