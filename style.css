@@ -168,6 +168,9 @@ animation-duration: 2.5s;
     font-size: 16px;
     padding: 16px 32px;
 }
+.projName{
+    color: orange;
+}
 #about{
     padding: 0px 75px;
 }
