@@ -2,8 +2,8 @@ const projArr = [
 	{
 		"name" : "React-Redux Calculator",
 		"tech" : "HTML/CSS/React/Redux",
-		"link" : 'https://codepen.io/nathan-williams/full/GGepoG/',
-		"pic" : 'https://s3-us-west-2.amazonaws.com/i.cdpn.io/1952703.GGepoG.small.28f1ad47-eb19-41d1-957d-afb9b1c61580.png',
+		"link" : 'https://nrpy078n7l.codesandbox.io/',
+		"pic" : 'calc.png',
 		"desc" : "Javascript calculator built using React and Redux"
 	},
 	{
