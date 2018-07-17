@@ -180,3 +180,10 @@ animation-duration: 2.5s;
 #email{
     color: blue;
 }
+#mobileWarning{
+    width: 100vw;
+    border-radius: 3%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
