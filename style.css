@@ -190,3 +190,8 @@ animation-duration: 2.5s;
     margin-left: -99999px;
     padding: 5px;
 }
+@media screen and (max-width: 1200px){
+    #mobileWarning{
+        margin: auto;
+    }
+}
