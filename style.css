@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 html{
 	overflow-x: hidden;
@@ -121,13 +122,20 @@ animation-duration: 2.5s;
 .thumb{
 	height: 380px;
 	width: 380px;
-	border-radius: 3px;
+	border-radius: 8px;
 }
 .projCell{
 	margin: 20px;
 }
 .imThumb{
     border-radius: 50%;
-    box-shadow: 0 0 0 2px orange;
-    height: 400px;
+    box-shadow: 0 0 2px 2px orange;
+    height: 500px;
+}
+.name{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.bio{
+    color: orange;
 }
