@@ -132,11 +132,10 @@ animation-duration: 2.5s;
 }
 .projCell:hover .thumb {
     opacity: 0.3;
-  }
-  
-  .projCell:hover .overlay {
+} 
+.projCell:hover .overlay {
     opacity: 1;
-  }
+ }
 .imThumb{
     border-radius: 50%;
     box-shadow: 0 0 2px 2px orange;
@@ -158,4 +157,5 @@ animation-duration: 2.5s;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background-color: blue;
 }
