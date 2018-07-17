@@ -2,7 +2,7 @@ const projArr = [
 	{
 		"name" : "React-Redux Calculator",
 		"tech" : "HTML/CSS/React/Redux",
-		"link" : 'https://nrpy078n7l.codesandbox.io/',
+		"link" : 'https://codesandbox.io/s/nrpy078n7l',
 		"pic" : 'calc.PNG',
 		"desc" : "Javascript calculator built using React and Redux"
 	},
@@ -16,7 +16,7 @@ const projArr = [
 	{
 		"name" : "Pomodoro Clock",
 		"tech" : "HTML/CSS/React",
-		"link" : 'https://s3-us-west-2.amazonaws.com/i.cdpn.io/1952703.GGepoG.small.28f1ad47-eb19-41d1-957d-afb9b1c61580.png',
+		"link" : 'https://codepen.io/nathan-williams/full/GGepoG/',
 		"pic" : 'https://s3-us-west-2.amazonaws.com/i.cdpn.io/1952703.GGepoG.small.28f1ad47-eb19-41d1-957d-afb9b1c61580.png',
 		"desc" : "Pomodoro Clock application built using React"
 	},
