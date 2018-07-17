@@ -14,7 +14,8 @@ header{
 	left: 0;
 	background-color: #242424;
 	background: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Free-black-background-wallpaper.jpg');
-	width: 100%;
+    width: 100%;
+    z-index: 10;
 }
 a{
 	text-decoration: none;
